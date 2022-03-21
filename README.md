@@ -1,1 +1,1 @@
-# react-pratice
+# react-practice
