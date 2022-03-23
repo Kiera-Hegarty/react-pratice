@@ -1,9 +1,11 @@
 // import ContactPage from './components/002-componentHierarchy/ContactPage';
 // import FirstComponent from './components/001-components-into/FirstComponents';
+// import LoginPage from './components/006-forms/LoginPage';
+import Zoo from './components/007-state-objects/Zoo';
 import './css/App.css';
 // import Manager from './components/003-props/Manager';
 // import ContactCardManager from './components/004-props-example/ContactCardManager';
-import StateManager from './components/005-State/StateManager';
+// import StateManager from './components/005-State/StateManager';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
             {/* <ContactPage /> */}
             {/* <Manager/> */}
             {/* <ContactCardManager/> */}
-            <StateManager/>
+            {/* <StateManager/> */}
+            {/* <LoginPage/> */}
+            <Zoo/>
     </div>
   );
 }
