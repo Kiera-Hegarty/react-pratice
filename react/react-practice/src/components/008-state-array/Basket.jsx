@@ -10,8 +10,6 @@ const Basket = ({ data }) => {
                 <h2> Order: {order.item}</h2>
                 <h3> Quantity: {order.quantity}</h3>
                 <h3> OrderID: {key} </h3>
-                {/* Each component returned in an array should have a unique ID assigned to it so you can access it */}
-                {/* <Product key={key}/>  */}
                 <br></br>
               </>
             );

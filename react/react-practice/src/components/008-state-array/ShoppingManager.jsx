@@ -2,21 +2,18 @@ import { useState } from "react";
 import Basket from "./Basket.jsx";
 
 const ShoppingManager = () => {
-  // Shop Manager will have state for the array of items in the basket - Will contain an array of objects
+  
   const [data, setData] = useState([]);
 
-  // State for the order object we are creating
-  const [order, setOrder] = useState({});
-//   const [quantity, setQuantity] = useState(0); 
+  const [order, setOrder] = useState({}); 
 
   const addToBasket = (o) => {
     setData((currentData) => {
-      return [...currentData, o]; // Adding our passed in order item to the array
+      return [...currentData, o]; 
     });
-    setOrder({}); // Setting order state to be null again
+    setOrder({}); 
   };
 
-  // Our method to set our order object
   const setOrderObj = (event) => {
       const {name, value} = event.target;
       setOrder((currentObj) => ({

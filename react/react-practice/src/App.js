@@ -4,7 +4,9 @@
 // import Zoo from './components/007-state-objects/Zoo';
 
 // import ToDoManager from './components/008-state-array/toDoManager';
-import ShoppingManager from './components/008-state-array/ShoppingManager';
+// import ShoppingManager from './components/008-state-array/ShoppingManager';
+
+import Pokedex from './components/009-json-data/Pokedex.jsx';
 import './css/App.css';
 // import Manager from './components/003-props/Manager';
 // import ContactCardManager from './components/004-props-example/ContactCardManager';
@@ -21,7 +23,8 @@ function App() {
             {/* <StateManager/> */}
             {/* <LoginPage/> */}
             {/* <Zoo/> */}
-            < ShoppingManager/>
+            {/* < ShoppingManager/> */}
+            <Pokedex/>
     </div>
   );
 }
