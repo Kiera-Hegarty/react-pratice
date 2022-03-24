@@ -7,17 +7,20 @@
 // import ShoppingManager from './components/008-state-array/ShoppingManager';
 
 // import Pokedex from './components/009-json-data/Pokedex.jsx';
+import LessText from './components/012-hooks/LessText';
+// import Shopping from './components/012-hooks/Shopping';
 import './css/App.css';
 // import Manager from './components/003-props/Manager';
 // import ContactCardManager from './components/004-props-example/ContactCardManager';
 // import StateManager from './components/005-State/StateManager';
-import Home from './components/011-routing/Home';
-import About from './components/011-routing/About';
-import Profile from './components/011-routing/Profile';
-import Zoo from './components/011-routing/Zoo';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import NavBar from './components/011-routing/NavBar';
-import Footer from './components/011-routing/Footer';
+
+// import Home from './components/011-routing/Home';
+// import About from './components/011-routing/About';
+// import Profile from './components/011-routing/Profile';
+// import Zoo from './components/011-routing/Zoo';
+// import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+// import NavBar from './components/011-routing/NavBar';
+// import Footer from './components/011-routing/Footer';
 
 
 
@@ -34,7 +37,7 @@ function App() {
             {/* <Zoo/> */}
             {/* < ShoppingManager/> */}
             {/* <Pokedex/> */}
-            <Router>
+            {/* <Router>
               <NavBar/>
               <Routes>
                 <Route path = "/" element={<Home/>}/>
@@ -43,7 +46,9 @@ function App() {
                 <Route path = "/zoo" element={<Zoo/>}/>
               </Routes>
               <Footer/>
-            </Router>
+            </Router> */}
+            {/* <Shopping/> */}
+            <LessText/>
     </div>
   );
 }
