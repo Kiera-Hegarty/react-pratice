@@ -9,7 +9,7 @@ const Bar = () => {
     axios
       .get("https://api.punkapi.com/v2/beers?&per_page=80")
       .then((response) => {
-        console.log(response.data);
+        // console.log(response.data);
         setData(response.data);
       });
   }, []);

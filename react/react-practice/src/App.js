@@ -10,6 +10,7 @@
 // import LessText from './components/012-hooks/LessText';
 // import Shopping from './components/012-hooks/Shopping';
 import Bar from './components/013-data-requests/Bar';
+import ProfileManager from './components/014-other-data-requests/ProfileManager';
 import './css/App.css';
 // import Manager from './components/003-props/Manager';
 // import ContactCardManager from './components/004-props-example/ContactCardManager';
@@ -49,7 +50,8 @@ function App() {
               <Footer/>
             </Router> */}
             {/* <Shopping/> */}
-            <Bar/>
+             {/* <Bar/> */}
+            <ProfileManager/>
     </div>
   );
 }
